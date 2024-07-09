@@ -1,0 +1,164 @@
+#root {
+  max-width: 1280px;
+  /* margin: 0 auto; */
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  /* height: 6em; */
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.custom-column {
+  background-color: #FFD700;
+  /* Set your custom background color here */
+  /* Add any other custom styles you want for this column */
+}
+
+/* Define a custom class for table rows */
+.custom-table-row {
+  margin-bottom: 1000px;
+  background-color: "green";
+  /* Adjust the margin as per your spacing preferences */
+  /* Add any other custom styles you want for rows */
+}
+
+/* Define a custom class for table cells to add space between rows */
+.custom-table-cell {
+  border-bottom: 10px solid transparent;
+  background-color: "green";
+  /* Adjust the border thickness to control the space between rows */
+  /* Add any other custom styles you want for cells */
+}
+
+.even-row {
+  background-color: "green";
+  /* Add any other custom styles you want for even rows */
+}
+
+td.customer__photo {
+  border-radius: 10px;
+  border: 1px solid green;
+  padding: 20px;
+}
+
+td.customer__id {
+  color: #919599;
+}
+
+td.customer__name {
+  color: #86CFAF;
+  text-decoration: underline;
+}
+
+td.customer__email {
+  color: #7C8084;
+}
+
+tr.table__row {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 14px;
+  border-radius: 5px;
+}
+
+th.column__name {
+  color: #0F5C53;
+}
+
+div.dashboard__heading {
+  /* margin: 10px; */
+  width: 100%;
+  padding: 10px 5px 10px 5px;
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.tab__Item {
+  background-color: "#043933";
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+div.add__customer__heading {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: stretch;
+  background: #267C63;
+  padding: 27px;
+  border-radius: 10px;
+}
+
+.add__customer__form {
+  padding: 30px 10px 30px 10px;
+}
+
+.add__customer__input__field {
+  padding: 10px;
+}
+
+.customer__upload__photo {
+  color: #10604F;
+}
+
+.add__customer__btn {
+  width: 100%;
+  /* padding: 12px; */
+  height: 50px;
+  border-radius: 10px;
+  background: #0D5C4C;
+  color: #fff;
+}
+
+
+.dialog__btns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.dialog__cancel_btn {
+  background: #A5A5AF;
+  color: #fff;
+  width: 100%;
+  height: 50px;
+
+}
+
+.dialog__delete_btn {
+  background: #D80000;
+  color: #fff;
+  width: 100%;
+  height: 50px;
+}
+
+.delete_dialog {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* flex-wrap: nowrap; */
+  /* align-content: space-around; */
+  /* align-items: stretch; */
+  /* justify-content: space-around; */
+  /* text-align: center; */
+  display: flex;
+  /* min-height: 100vh; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
